@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Documentation (Incremental)",
+            "type": "shell",
+            "command": "docker run -v \"./.git:/app/.git\" -v \"./docs:/app/docs\" -v \"./.artifacts:/app/.artifacts\" ghcr.io/elastic/docs-builder:edge",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Serve Documentation",
+            "type": "shell",
+            "command": "docker run -v \"./.git:/app/.git\" -v \"./docs:/app/docs\" -v \"./.artifacts:/app/.artifacts\" --expose 8080 ghcr.io/elastic/docs-builder:edge serve",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
