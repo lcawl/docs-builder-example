@@ -11,8 +11,9 @@ This page applies to the latest version of the Elastic Stack in an on-premise se
 
 {{es}} is available as a `.tar.gz` archive for Linux and MacOS.
 
-The latest stable version of {{es}} can be found on the [Download {{es}}](https://www.elastic.co/downloads/elasticsearch) page.
-Other versions can be found on the [Past Releases page](https://www.elastic.co/downloads/past-releases).
+The latest stable version of {{es}} can be found on the
+[Download {{es}}](https://www.elastic.co/downloads/elasticsearch) page. Other
+versions can be found on the [Past Releases page](https://www.elastic.co/downloads/past-releases).
 
 ## Download and install archive for Linux
 
