@@ -2,6 +2,10 @@
 title: Ubuntu 18.04 LTS (Bionic Beaver)
 ---
 
+```{deprecated} 3.6
+Support for Ubuntu 18.04 LTS (Bionic Beaver) was removed in Elastic Cloud Enterprise 3.7.
+```
+
 The following instructions show you how to prepare your hosts on 18.04 LTS (Bionic Beaver).
 
 . Check the supported Linux kernel
