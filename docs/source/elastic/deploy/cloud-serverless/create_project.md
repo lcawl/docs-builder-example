@@ -1,5 +1,5 @@
 ---
-title: Create an Elastic Cloud serverless project
+title: Elastic Cloud serverless
 ---
 
 . Navigate to cloud.elastic.co and create a new account or log in to your existing account.

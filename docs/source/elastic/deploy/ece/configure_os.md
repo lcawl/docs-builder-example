@@ -1,5 +1,5 @@
 ---
-title: Configure your operating system for Elastic Cloud Enterprise
+title: Configure your operating system
 ---
 
 Before installing Elastic Cloud Enterprise, you have to prepare your hosts with one of the following Linux distributions:

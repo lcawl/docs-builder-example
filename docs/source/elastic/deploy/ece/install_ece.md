@@ -1,8 +1,8 @@
 ---
-title: Install Elastic Cloud Enterprise
+title: Elastic Cloud Enterprise
 ---
 
-Before you start, make sure you identify your deployment scenario and prepare your hosts.
+Before you start installing ECE, make sure you identify your deployment scenario and prepare your hosts.
 
 You can get ECE up and running using the official bash script on a public cloud or on your own premises.
 Alternatively, you can install ECE with the Ansible playbook.

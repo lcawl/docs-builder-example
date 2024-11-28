@@ -1,5 +1,5 @@
 ---
-title: Install a self-managed Elastic Stack
+title: Self-managed Elastic Stack
 ---
 
 ```{note}

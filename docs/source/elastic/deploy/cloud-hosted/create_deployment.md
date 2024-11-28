@@ -1,5 +1,5 @@
 ---
-title: Create an Elastic Cloud hosted deployment
+title: Elastic Cloud hosted
 ---
 
 An Elastic Cloud deployment includes Elastic Stack components such as Elasticsearch, Kibana, and other features, allowing you to store, search, and analyze your data.
