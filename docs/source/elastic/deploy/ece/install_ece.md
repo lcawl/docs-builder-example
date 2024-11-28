@@ -2,10 +2,6 @@
 title: Install Elastic Cloud Enterprise
 ---
 
-```{note}
-This page applies to the latest Elastic Cloud Enterprise environment.
-```
-
 Before you start, make sure you identify your deployment scenario and prepare your hosts.
 
 You can get ECE up and running using the official bash script on a public cloud or on your own premises.
