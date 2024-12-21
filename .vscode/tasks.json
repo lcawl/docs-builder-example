@@ -6,7 +6,7 @@
         {
             "label": "Build Documentation (Incremental)",
             "type": "shell",
-            "command": "docker run -v \"./.git:/app/.git\" -v \"./docs:/app/docs\" -v \"./.artifacts:/app/.artifacts\" ghcr.io/elastic/docs-builder:edge",
+            "command": "docker run -v \"./.git:/app/.git\" -v \"./docs:/app/docs\" -v \"./.artifacts:/app/.artifacts\" --platform linux/amd64 ghcr.io/elastic/docs-builder:edge",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
@@ -16,7 +16,7 @@
         {
             "label": "Serve Documentation",
             "type": "shell",
-            "command": "docker run -v \"./.git:/app/.git\" -v \"./docs:/app/docs\" -v \"./.artifacts:/app/.artifacts\" -p 8080:8080 ghcr.io/elastic/docs-builder:edge serve",
+            "command": "docker run -v \"./.git:/app/.git\" -v \"./docs:/app/docs\" -v \"./.artifacts:/app/.artifacts\" --platform linux/amd64  -p 8080:8080 ghcr.io/elastic/docs-builder:edge serve",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
@@ -26,7 +26,7 @@
         {
             "label": "Build Documentation (Full (--force))",
             "type": "shell",
-            "command": "docker run -v \"./.git:/app/.git\" -v \"./docs:/app/docs\" -v \"./.artifacts:/app/.artifacts\" ghcr.io/elastic/docs-builder:edge --force",
+            "command": "docker run -v \"./.git:/app/.git\" -v \"./docs:/app/docs\" -v \"./.artifacts:/app/.artifacts\"  --platform linux/amd64 ghcr.io/elastic/docs-builder:edge --force",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
