@@ -41,8 +41,8 @@ tar -xzf elasticsearch-{{version}}-darwin-x86_64.tar.gz
 cd elasticsearch-{{version}}/ <2>
 ```
 
-<1> Compares the SHA of the downloaded `.tar.gz` archive and the published checksum, which should output
+1. Compares the SHA of the downloaded `.tar.gz` archive and the published checksum, which should output
     `elasticsearch-{{version}}-darwin-x86_64.tar.gz: OK`.
-<2> This directory is known as `$ES_HOME`.
+2. This directory is known as `$ES_HOME`.
 
 
